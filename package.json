@@ -1,0 +1,25 @@
+{
+  "name": "claude-skills-test",
+  "version": "1.0.0",
+  "description": "DeepCast landing page project with content generation utilities",
+  "private": true,
+  "scripts": {
+    "generate:content": "node scripts/generate-content.js",
+    "generate:images": "node scripts/generate-images.js",
+    "generate:avatars": "node scripts/generate-avatars.js"
+  },
+  "keywords": [
+    "deepcast",
+    "ai",
+    "landing-page",
+    "content-generation"
+  ],
+  "author": "ZenAlexa <zimingwang945@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

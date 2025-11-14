@@ -1,6 +1,14 @@
 // Generate personas and testimonials using Gemini API
-const API_KEY = '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';
+require('dotenv').config();
+
+const API_KEY = process.env.OPENROUTER_API_KEY;
 const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
+
+if (!API_KEY) {
+  console.error('❌ Error: OPENROUTER_API_KEY environment variable is not set');
+  console.error('Please create a .env file with: OPENROUTER_API_KEY=your_key_here');
+  process.exit(1);
+}
 
 async function generateContent() {
   const prompt = `Generate 6 diverse user personas for DeepCast - a cognitive synthesis engine that transforms podcast knowledge into multi-agent AI conversations.
