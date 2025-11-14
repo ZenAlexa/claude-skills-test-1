@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+bundle.html
+*.bundle.html
+
+# Test artifacts
+.claude/skills/artifacts-builder/test-*/
+test-artifact-*/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Package files
+*.zip
+*.tar.gz
+
+# MCP server builds
+*.js.map

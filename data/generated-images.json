@@ -1,0 +1,85 @@
+{
+  "generated_at": "2025-11-14T12:35:55.969Z",
+  "total": 11,
+  "successful": 0,
+  "failed": 11,
+  "images": [
+    {
+      "id": "persona-dr.-anya-sharma",
+      "type": "persona",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "persona-mark-chen",
+      "type": "persona",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "persona-sarah-ramirez",
+      "type": "persona",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "persona-dr.-david-lee",
+      "type": "persona",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "persona-emily-carter",
+      "type": "persona",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "persona-james-wilson",
+      "type": "persona",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "hero-abstract",
+      "type": "hero",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "demo-conversation",
+      "type": "demo",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "feature-multiagent",
+      "type": "feature",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "feature-realtime",
+      "type": "feature",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    },
+    {
+      "id": "feature-crossdisciplinary",
+      "type": "feature",
+      "url": null,
+      "generated": false,
+      "error": "No valid response"
+    }
+  ]
+}
